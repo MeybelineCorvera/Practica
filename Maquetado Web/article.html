@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetación Web</title>
+    <!-- Hola de estilos -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<h1>BIENVENIDOS A MI MAQUETACIÓN WEB</h1>
+<body>
+    <header id="header">
+        <div class="center">
+            <div id="logo">
+                <img src="./assets/images/Logo.png" class="app-logo" alt="Logotipo">
+                <span id="brand">
+                    <strong>Meybeline</strong>Corvera
+                </span>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <a href="./index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="./blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="./formulario.html">Formulario</a>
+                    </li>
+                    <li>
+                        <a href="#">Página 1</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--LIMPIAR FLOTADOS-->
+            <div class="clearfix"></div>
+        </div> 
+    </header>
+
+ <!--Sidebar-->
+    <div class="center">
+        <section id="content">
+            <!--Listado de articulos-->
+                <article class="article-item article-detalle" id="article-template">
+                    <div class="image-wrap">
+                        <img src="./assets/images/pc.jpg" alt="Imagen del articulo">
+                    </div>
+                    <h1 class="subheader">El impacto de la IA en Desarrollo de Software </h1>
+                    <span class="date">Hace 5 minutos</span>
+                    <p>La inteligencia artificial ha tenido un impacto significativo en el desarrollo de software, ya que ha permitido automatizar tareas repetitivas y complejas, mejorar la eficiencia en la detección de errores y vulnerabilidades, y acelerar el proceso de desarrollo en general.
+                    <br>
+                    La utilización de IA en el desarrollo de software ha facilitado la toma de decisiones más informadas y precisas, gracias a la capacidad de analizar grandes cantidades de datos y generar recomendaciones basadas en patrones y tendencias identificadas. Además, la IA ha contribuido a la creación de software más personalizado y adaptable a las necesidades específicas de los usuarios, a través de tecnologías como el machine learning y el procesamiento del lenguaje natural.
+                    <br>    
+                    Sin embargo, también es importante mencionar que la implementación de la inteligencia artificial en el desarrollo de software plantea desafíos en términos de ética, transparencia y seguridad. Es fundamental garantizar la privacidad y la confidencialidad de los datos procesados por los algoritmos de IA, así como velar por la equidad y la imparcialidad en la toma de decisiones automatizadas.
+                    <br>    
+                    En resumen, el impacto de la inteligencia artificial en el desarrollo de software es innegable, ya que ha revolucionado la forma en que se crean, prueban y despliegan aplicaciones informáticas. Sin embargo, es importante abordar de manera responsable y ética los desafíos que plantea la integración de la IA en el desarrollo de software, para garantizar que sus beneficios se traduzcan en mejoras tangibles y sostenibles en la calidad y la seguridad de los productos tecnológicos.</p>
+                    <div class="clearfix"></div>
+                </article>
+        </section>
+
+        <aside id="sidebar">
+            <div id="nav-log" class="sidebar-items">
+                <h3>Creacion de articulos</h3>
+                <a href="#" class="btn btn-success">Crear articulos</a>
+            </div>
+
+            <div id="search" class="sidebar-items">
+                <h3>Buscador</h3>
+                <p>Encuentra el articulo que buscas</p>
+                <form>
+                    <input type="text" name="search">
+                    <input type="submit" name="submit" class="btn"
+                    value="Buscar">
+                </form>
+            </div>
+        </aside>
+
+
+        <div class="clearfix"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="center">
+            <p>
+                &copy;Meybeline Corvera
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
