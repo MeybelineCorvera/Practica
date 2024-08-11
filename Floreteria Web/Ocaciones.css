@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color:rgb(253, 191, 217);
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    background-color: #5c5454;
+    padding: 10px 0;
+}
+
+.logo h1{
+    margin: 0;
+    color: rgb(253, 191, 217);
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(253, 191, 217);
+}
+
+#menu-social{
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #5c5454;
+    text-align: center;
+    clear: both;
+}
+
+#menu-social ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-social ul li{
+    display: inline-block;
+}
+
+#menu-social li a {
+    color: rgb(253, 191, 217);
+    margin: 0 10px;
+    text-decoration: none;
+}
+   
+#menu-social li a:hover{
+    color: rgb(253, 191, 217);
+}
+
+#menu-social li a::before{
+    content: "";
+    display: inline-block;
+    width: 1.25em;
+    height: 1.25em;
+    margin-right: 0.5em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+}
+
+/*Estilo de footer*/
+#menu-social{
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #5c5454;
+    text-align: center;
+    clear: both;
+}
+
+#menu-social ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.service-card{
+    display: flex;
+    align-items: center;
+    background-color: #5c5454;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+.service-image{
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.service-content{
+    max-width: 600px;
+}
+
+.service-content h3{
+    margin-top: 0;
+    text-align: center;
+    color: aliceblue;
+}
+
+.service-content p{
+    text-align: justify;
+    color:  rgb(253, 191, 217);
+}
+
+.service-content ul{
+    padding-left: 50px;
+    color:  rgb(253, 191, 217);
+}
+
+.service-content ul li{
+    list-style-type: disc;
+}

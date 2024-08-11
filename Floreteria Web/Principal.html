@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Practica 15 DPW</title>
+    <link rel="stylesheet" href="./Principal.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>FLORISTERÍA ABIGAIL</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./Principal.html">Inicio</a></li>
+                    <li><a href="./Ocaciones.html">Ocaciones</a></li>
+                    <li><a href="./Flores.html">Flores</a></li>
+                    <li><a href="./Contactos.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="slide">
+            <div class="slide-inner">
+                <input class="slide-open" type="radio" id="slide-1"
+                       name="slide" aria-hidden="true" hidden="" checked=" checked">
+                <div class="slide-item">
+                    <img src="./img/Arreglo1_rosas.jpg">
+                </div>
+                <input class="slide-open" type="radio" id="slide-2"
+                       name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="./img/Arreglo2.jpeg">
+                </div>
+                <input class="slide-open" type="radio" id="slide-3"
+                       name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="./img/Arreglo3_tripie-corazon-.jpg">
+                </div>
+                <label for="slide-3" class="slide-control prev control-1">‹</label>
+                <label for="slide-2" class="slide-control next control-1">›</label>
+                <label for="slide-1" class="slide-control prev control-2">‹</label>
+                <label for="slide-3" class="slide-control next control-2">›</label>
+                <label for="slide-2" class="slide-control prev control-3">‹</label>
+                <label for="slide-1" class="slide-control next control-3">›</label>
+                <ol class="slide-indicador">
+                    <li>
+                        <label for="slide-1" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-2" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-3" class="slide-circulo">•</label>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer id="menu-social" class="menu">
+        <div class="container"></div>
+            <ul id="menu-social-item" class="menu-item">
+
+                <li><a href="https://www.facebook.com"><i class="bi bi-facebook"></i></a></li>
+                <li><a href="https://www.whatsapp.com/"><i class="bi bi-whatsapp"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a></li>
+                <li><a href="https://www.google.com"><i class="bi bi-google"></i></a></li>
+                <li><a href="https://www.pinterest.es"><i class="bi bi-pinterest"></i></a></li>
+            </ul>
+        </div>     
+    </footer>
+</body>
+</html>

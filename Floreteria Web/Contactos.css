@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color:rgb(253, 191, 217);
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    background-color: #5c5454;
+    padding: 10px 0;
+}
+
+.logo h1{
+    margin: 0;
+    color: rgb(253, 191, 217);
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(253, 191, 217);
+}
+
+/*Estilo de footer*/
+#menu-social{
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #5c5454;
+    text-align: center;
+    clear: both;
+}
+
+#menu-social ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-social ul li{
+    display: inline-block;
+}
+
+#menu-social li a {
+    color: rgb(253, 191, 217);
+    margin: 0 10px;
+    text-decoration: none;
+}
+   
+#menu-social li a:hover{
+    color: rgb(253, 191, 217);
+}
+
+#menu-social li a::before{
+    content: "";
+    display: inline-block;
+    width: 1.25em;
+    height: 1.25em;
+    margin-right: 0.5em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+    }
+
+    .contact-form{
+        background-color: #5c5454;
+        margin: 20px auto;
+        padding: 20px;
+        max-width: 1000px;
+        border-radius: 8px;
+    }
+
+    .contact-info{
+        background-color: #5c5454;
+        margin: 20px auto;
+        padding: 20px;
+        max-width: 1000px;
+        border-radius: 8px;
+        text-align: center;
+        color: rgb(253, 191, 217);
+    }
+
+    .contact-form h2{
+        text-align: center;
+        color: rgb(253, 191, 217);
+    }
+
+    .form-gruop{
+        margin-bottom: 15px;
+    }
+
+    .form-gruop label{
+        display: block;
+        margin-bottom: 5px;
+        color: rgb(253, 191, 217);
+    }
+
+    .form-gruop input, .form-group textarea{
+        width: 98%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .form-gruop input:focus, .form-gruop textarea:focus{
+        border-color: rgb(253, 191, 217);
+    }
+
+    button{
+        background-color: rgb(253, 191, 217);
+        color: #000000;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: rgb(253, 191, 217);
+    }
