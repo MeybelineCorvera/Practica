@@ -1,0 +1,71 @@
+/*EN ESTE ARCHIVO AGREGAREMOS NUESTRO ESTILO CSS PARA NUESTRA PAGINA*/
+
+body{
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 300px;
+}
+
+header{
+    background-color: rgb(37, 158, 21);
+    padding: 12px;
+    text-align: left;
+    color: aliceblue;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+main{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+section h2{
+    color: rgb(29, 167, 40);
+}
+
+img{
+    max-width: 50%;
+    height: auto;
+}
+
+aside{
+    color: aliceblue;
+    float: right;
+    width: 25%;
+    background-color: rgb(35, 114, 28);
+    padding: 15px;
+    margin-top: 15px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(51, 136, 34);
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+/*ESTILOS PARA ENLACES*/
+a{
+    text-decoration: none;
+    color: rgb(193, 253, 178);
+}
