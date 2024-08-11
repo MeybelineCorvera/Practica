@@ -1,0 +1,42 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.photo{
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: rgb(243, 234, 243);
+    box-shadow: 0 2px 4px rgb(39, 46, 139);
+    text-align: center;
+}
+
+.photo img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.photo p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  rgb(243, 234, 243);
+    text-align: center;
+    padding: 10px;
+}
